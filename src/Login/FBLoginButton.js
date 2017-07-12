@@ -8,8 +8,8 @@ import {
   View,
 } from 'react-native';
 import Auth0 from 'react-native-auth0';
-
-const auth0 = new Auth0({ domain: 'jodilark.auth0.com', clientId: 'OpCt75m_pogSS2d_5wRxrs8B4BjEAvkp' });
+var credentials = require('./auth0-credentials');
+const auth0 = new Auth0(credentials);
 
 export default class Auth0Sample extends Component {
   _onLogin() {
