@@ -19,6 +19,9 @@ export default class Charmi extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Text style={styles.welcome}>
+          This is Charmi App
+        </Text>
 
       </View>
     );
