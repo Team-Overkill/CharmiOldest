@@ -13,13 +13,16 @@ import {
 } from 'react-native';
 
 export default class Charmi extends Component {
+  componentWillMount () {
+    console.log('Component will mount...')
+  }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           This is Charmi App
         </Text>
-        
+
       </View>
     );
   }
@@ -45,3 +48,16 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('Charmi', () => Charmi);
+
+
+
+{/*<Text style={styles.welcome}>*/}
+  {/*Welcome to React Native!*/}
+{/*</Text>*/}
+{/*<Text style={styles.instructions}>*/}
+{/*To get started, edit index.android.js*/}
+{/*</Text>*/}
+{/*<Text style={styles.instructions}>*/}
+{/*Double tap R on your keyboard to reload,{'\n'}*/}
+{/*Shake or press menu button for dev menu*/}
+{/*</Text>*/}
