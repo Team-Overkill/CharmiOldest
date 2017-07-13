@@ -11,7 +11,7 @@ import Auth0 from 'react-native-auth0';
 var credentials = require('./auth0-credentials');
 const auth0 = new Auth0(credentials);
 
-export default class Auth0Sample extends Component {
+export default class FbLoginButton extends Component {
   _onLogin() {
     auth0
     .webAuth
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Auth0Sample', () => Auth0Sample);
+// AppRegistry.registerComponent('Auth0Sample', () => Auth0Sample);
