@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import LoginContainer from './src/Login/LoginContainer'
 
 export default class Charmi extends Component {
   componentWillMount () {
@@ -22,7 +23,7 @@ export default class Charmi extends Component {
         <Text style={styles.welcome}>
           This is Charmi App
         </Text>
-
+        <LoginContainer/>
       </View>
     );
   }
