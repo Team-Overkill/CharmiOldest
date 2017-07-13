@@ -5,7 +5,16 @@ import LoginContainer from './Login/LoginContainer'
 const RouterComponent = () => {
   return (
     <Router>
-      <Scene key="login" component={LoginContainer} title="Login" initial/>
+
+      <Scene
+        key="login"
+        component={LoginContainer}
+        title="Login"
+        initial
+      />
+
+      <Scence />
+
     </Router>
   )
 }
