@@ -13,7 +13,7 @@ const RouterComponent = () => {
         initial
       />
 
-      <Scence />
+      {/*<Scence />*/}
 
     </Router>
   )
